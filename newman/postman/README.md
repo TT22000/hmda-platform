@@ -2,7 +2,7 @@
 
 The HMDA [Postman](https://www.postman.com/) collection has everything you need to file using HMDA Public API. There are 2 files you will need to import into Postman.
 
-1. `HMDA_API_Filing.postman_collection.json` has all the requests. You shouldn't need to modify it.
+1. `HMDA_API_Filing.postman_collection.json` has all the requests. You will need to ensure `Create an Instituion` Body matches the `YEAR` and `LEI` Variables below.
 2. `HMDA_ENV.postman_environment.json` has all the enviorment variables need to run the requests. You will need to edit this file either before import or in Postman.
 
 ## Variables
